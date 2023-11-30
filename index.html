@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Two</title>
+</head>
+<body bgcolor="lightblue">
+    <h1>Sign up</h1>
+    <form action="./login.html" method="post">
+        <label for="email">Email</label>
+        <input type="email" placeholder="Type your email" name="Email" id="email" required>
+        <br>
+        <br>
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter your password" required>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Gender</legend>
+            <label for="Gender">Male</label>
+            <input type="radio" value="Male" name="Gender" id="Gender">
+            <label for="Female">Female</label>
+            <input type="radio" value="Female" name="Gender" id="Female">
+        </fieldset>
+        <br>
+        <label for="bio">Your BIO:</label>
+        <textarea name="BIO" cols="60" rows="10" id="bio" placeholder="Write a summary about yourself"></textarea>
+        <br>
+        <br>
+        <!-- <input type="submit" > -->
+        <button type="submit">submit</button>
+        <input type="reset">
+    </form>
+</body>
+</html>
